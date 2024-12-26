@@ -48,6 +48,15 @@ nav ul li:active{
   background-color: #1A1A1A;
 }
 
+.nav-links{
+  text-decoration: none;
+  color: white;
+}
+
+.active-link{
+  color: var(--accent-clr);
+}
+
 /* Pick Up Request Btn */
 nav div:first-child{
     padding:15px 10px;

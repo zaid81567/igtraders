@@ -2,39 +2,50 @@
 
 
 .contact-info-top{
-    padding: 20px 10px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+
+    border-bottom: 1px solid rgb(235, 235, 235);
 }
 
 .contact-info-top div{
-    
     display: flex;
     align-items: center;
     gap: 5px;
     line-height: .5;
 }
 
+.mail-number{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
 .icon{
     font-size: 20px;
 }
-
+.social-links{
+    padding: 20px;
+}
 .social-links ul{
-    margin-top: 20px;
     list-style: none;
     display: flex;
-    gap: 20px;
 }
 
 .social-links ul li{
-    padding-right: 19px;
+    padding: 0 20px;
     border-right: 1px black solid;
     
     cursor: pointer;
+    font-size: 24px;
 
+}
+
+.social-links ul li:active{
+    color: var(--accent-clr);
 }
 
 .social-links ul li:last-child{
@@ -49,3 +60,32 @@
     border: 2px black solid;
 }
 
+
+@media (min-width:1024px){
+    .contact-info-top{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contact-info-top .icon{
+        color: white;
+    }
+
+    .mail-number{
+        background-color: var(--accent-clr);
+        color: white;
+        flex-direction: row;
+        padding-top: 0px;
+    }
+
+    .mail-number div{
+        width: 300px;
+        padding: 22px 10px;
+    }
+
+    .social-links ul{
+        margin-top: 0px;
+    }
+
+}

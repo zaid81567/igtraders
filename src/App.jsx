@@ -1,26 +1,55 @@
 import React from 'react'
-import Header from './components/Header/Header'
-import Spacer from './components/Spacer'
-import HeroSection from './components/HeroSection/HeroSection'
-import AboutUsSection from './components/AboutUsSection/AboutUsSection'
-import CtaContactUs from './components/CtaContactUs/CtaContactUs'
-import OurServices from './components/OurServices/OurServices'
-import Testimonial from './components/Testimonial/Testimonial'
-import HomePageFooter from './components/Footer/HomePageFooter'
+import { createBrowserRouter, RouterProvider} from "react-router-dom";
+import HomePage from './pages/HomePage';
+import NoPage from './pages/NoPage';
+import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
 
 function App() {
+  const route = createBrowserRouter([
+      {
+        path: "/",
+        element: (
+          <>
+            <Header />
+            <HomePage />
+            <Footer />
+          </>
+        ),
+      },
+      {
+        path: "/about",
+        element: (
+          <>
+            <Header />
+            <AboutPage />
+            <Footer />
+          </>
+        ),
+      },
+      {
+        path: "/contact",
+        element: (
+          <>
+            <Header />
+            <ContactPage />
+            <Footer />
+          </>
+        ),
+      },
+      {
+        path: "/*",
+        element: <NoPage />,
+      },
+    ]);
+
   return (
-    <>
-    <Header/>
-    <HeroSection/>
-    <AboutUsSection/>
-    <CtaContactUs/>
-    <OurServices/>
-    <Testimonial/>
-    <HomePageFooter/>
-    <Spacer/>
-    </>
-  )
+    <div>
+      <RouterProvider router={route}/>
+    </div>
+  );
 }
 
 export default App

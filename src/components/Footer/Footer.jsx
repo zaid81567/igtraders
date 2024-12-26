@@ -1,12 +1,13 @@
 import React from 'react'
-import './FooterLinks.css'
+import './Footer.css'
 
 import { IoLocation } from "react-icons/io5";
 import { MdMarkEmailUnread } from "react-icons/md";
 import { FaLinkedin, FaPhone } from "react-icons/fa6";
 import { FaInstagram, FaFacebook, FaWhatsapp } from "react-icons/fa";
+import CopyrightBanner from './CopyrightBanner/CopyrightBanner';
 
-function FooterLinks() {
+function Footer() {
     const services = [
         "E waste Management",
         "Second Hand Laptop Buyer",
@@ -23,6 +24,7 @@ function FooterLinks() {
     const quick_links = ["Home", "About us", "Scrap gallery", "Contact us"]
 
   return (
+    <>
     <footer>
       <div className="brief-outro">
         <span><h2>Company Logo</h2></span>
@@ -61,21 +63,23 @@ function FooterLinks() {
         <h2>Our Contact</h2>
         <div>
           <div>
-          <span><IoLocation/></span>
-          <p>10/1/1, Collin lane, Kolkata-700016</p>
+            <span><IoLocation/></span>
+            <p>10/1/1, Collin lane, Kolkata-700016</p>
+          </div>
+          <div>
+            <span><MdMarkEmailUnread/></span>
+            <p>igtradersscrap@gmail.com</p>
+          </div>
+          <div>
+            <span><FaPhone/></span>
+            <p>+91 9830415155</p>
+          </div>
         </div>
-        <div>
-          <span><MdMarkEmailUnread/></span>
-          <p>igtradersscrap@gmail.com</p>
-        </div>
-        <div>
-          <span><FaPhone/></span>
-          <p>+91 9830415155</p>
-        </div>
-      </div>
-        </div>    
+      </div>    
     </footer>
+    <CopyrightBanner/>
+    </>
   )
 }
 
-export default FooterLinks
+export default Footer
