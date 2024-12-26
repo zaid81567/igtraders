@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './components/Header/Header'
-import Spacer from './components/spacer'
+import Spacer from './components/Spacer'
 import HeroSection from './components/HeroSection/HeroSection'
 import AboutUsSection from './components/AboutUsSection/AboutUsSection'
 import CtaContactUs from './components/CtaContactUs/CtaContactUs'
