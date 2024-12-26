@@ -1,0 +1,51 @@
+@import url('./Navbar.css');
+
+
+.contact-info-top{
+    padding: 20px 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-info-top div{
+    
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    line-height: .5;
+}
+
+.icon{
+    font-size: 20px;
+}
+
+.social-links ul{
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.social-links ul li{
+    padding-right: 19px;
+    border-right: 1px black solid;
+    
+    cursor: pointer;
+
+}
+
+.social-links ul li:last-child{
+    border: none;
+}
+
+.company-logo{
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 100%;
+
+    border: 2px black solid;
+}
+

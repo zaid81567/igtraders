@@ -1,0 +1,111 @@
+.hero-section{
+    padding: 20px 10px;
+    /* background-image: url('/client/src/assets/hero-page-img.jpg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-section .overlay{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.903);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+    /* border: 2px black solid; */
+}
+
+.hero-section div:first-child{
+    position: relative;
+    z-index: 3;
+}
+
+.hero-section div:first-child div:first-child{
+    text-align: center;
+    padding: 20px 0;
+
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.second{
+    color: var(--accent-clr);
+}
+
+/* CTA CARD */
+.cta-card{
+    padding: 10px;
+    /* border: 2px gray solid; */
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.cta-card h2{
+    color: var(--accent-clr);
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 22px;
+}
+
+.cta-card div{
+    display: flex;
+    justify-content: center;
+
+    border: 2px var(--cta-div-clr) solid;
+    border-radius: 5px;
+     
+}
+
+.cta-card div span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+.cta-card div input{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    width: 85%;
+    padding: 0 10px;
+}
+
+.phone-icon{
+    font-size: 30px;
+    border-right: 2px var(--cta-div-clr) solid;
+}
+
+.cta-card button{
+    padding: 8px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--accent-clr);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1) all;
+}
+
+.cta-card button:active{
+    background-color: black;
+}

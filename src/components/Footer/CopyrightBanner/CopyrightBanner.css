@@ -1,0 +1,14 @@
+.copyright-banner{
+    background-color: black;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    border-top: rgba(128, 128, 128, 0.348) 2px solid;
+    
+    font-size: 14px;
+}
+
+.copyright-banner span{
+    color: var(--accent-clr);
+    font-weight: bold;
+}

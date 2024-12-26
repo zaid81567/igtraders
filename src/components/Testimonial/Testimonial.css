@@ -1,0 +1,85 @@
+.testimonial-container{
+    margin-top: 50px;
+}
+
+.testimonial-container .heading{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.testimonial-container div:first-child h4{
+    color: var(--accent-clr);
+    font-weight: bolder;
+}
+
+.testimonial-container div:first-child h2{
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+}
+
+/* cards  */
+.testimonials{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 0px 10px;
+}
+
+.testimonial-card{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    border: 2px black solid;
+    border-radius: 5px;
+    padding: 15px 10px;
+
+    position: relative;
+    z-index: 2;
+}
+
+ .testimonial-card div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: .2;
+}
+
+.testimonial-card img{
+    width: 60px;
+    border-radius: 80%;
+}
+
+.name{
+    padding-left: 20px;
+    font-weight: bold;
+    color: black;
+    font-style: italic;
+}
+
+.testimonial-card p{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.qoute-mark-span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+
+.qoute-mark-span img{
+    width: 120px;
+    opacity: 8%;
+}
+

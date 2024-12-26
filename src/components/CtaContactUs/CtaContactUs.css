@@ -1,0 +1,63 @@
+.cta-contact-us-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.cta-contact-us-container span{
+    color: var(--accent-clr);
+}
+
+.cta-contact-us-container h3,h1{
+    font-family: "Playfair Display", serif;
+    text-align: center;
+}
+
+.cta-contact-us-container h1{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.cta-contact-us-container p{
+    text-align: center;
+    line-height: 30px;
+}
+
+.cta-contact-us-container button{
+    margin: 20px 0;
+    padding: 10px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--accent-clr);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1) all;
+    display: flex;
+    gap: 10px;
+
+    border: 2px transparent solid;
+
+}
+
+.cta-contact-us-container button:hover{
+    background-color: black;
+    border: 2px var(--accent-clr) solid;
+}
+
+.cta-contact-us-container button:active{
+    background-color: var(--accent-clr);
+}
+
+.cta-contact-us-container button span{
+    color: white;
+    font-size: 22px;
+}
