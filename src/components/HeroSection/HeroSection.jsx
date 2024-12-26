@@ -13,11 +13,14 @@ function HeroSection() {
                 <h1 className="second">Anything & Everything</h1>
             </div>
             <div className="cta-card">
-                <h2>Sell or Buy</h2>
-                <p>Just drop your mobile number</p>
-                <div>
+                <div className='cta-heading'>
+                    <h2>Sell or Buy</h2>
+                    <p>Just drop your mobile number</p>
+                </div>  
+                
+                <div className='phone-number-container'>
                     <span className='icon phone-icon'><MdPhoneIphone/></span>
-                    <input type="text" />
+                    <input type="text" placeholder='Enter Your Number'/>
                 </div>
                 <button>SUBMIT</button>
             </div>

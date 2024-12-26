@@ -5,7 +5,7 @@
 .about-us-section h1{
     font-family: "Playfair Display", serif;
     font-size: 50px;
-    padding: 20px;
+    /* padding: 20px; */
     text-align: center;
 }
 
@@ -56,9 +56,17 @@
     font-family: "Playfair Display", serif;
 }
 
+.why-choose-us-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .about-us-card{
     margin: 20px 0;
     width: 90%;
+    max-width: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -105,3 +113,24 @@
     padding: 0 20px 20px 20px;
 }
 
+
+
+/* RESPONSIVE CODE  */
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+    .about-us p{
+        width: 850px;
+        margin: 0 auto;
+    }
+
+    .why-choose-us-cards{
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .about-us-card{
+        max-width: 250px;
+    }
+}

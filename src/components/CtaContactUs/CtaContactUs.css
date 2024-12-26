@@ -61,3 +61,34 @@
     color: white;
     font-size: 22px;
 }
+
+
+
+/* RESPONSIVE CODE  */
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+
+    .cta-contact-us-container{
+        min-height: 100dvh;
+        justify-content: center;
+    }
+.cta-contact-us-container h3,h1{
+    font-family: "Playfair Display", serif;
+    text-align: center;
+}
+
+.cta-contact-us-container h3{
+    font-size: 30px;
+}
+
+.cta-contact-us-container h1{
+    font-size: 55px;
+}
+
+.cta-contact-us-container p{
+    font-size: 24px;
+    max-width: 850px;
+}
+}

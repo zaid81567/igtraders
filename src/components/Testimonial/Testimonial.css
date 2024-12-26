@@ -83,3 +83,37 @@
     opacity: 8%;
 }
 
+
+/* RESPONSIVE CODE */
+@media (min-width: 1024px) {
+    .testimonial-container{
+        min-height: 80dvh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .testimonial-container div:first-child h2{
+        font-size: 50px;
+    }
+
+.testimonials{
+    margin: 20px auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 700px;
+}
+
+.testimonial-card{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    border: 2px black solid;
+    border-radius: 5px;
+    padding: 30px 20px;
+
+    position: relative;
+    z-index: 2;
+}
+}

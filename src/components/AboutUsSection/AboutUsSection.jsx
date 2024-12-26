@@ -18,21 +18,24 @@ function AboutUsSection() {
                 <h2>We Have Many Years Of Experience to collect scrap items</h2>
                 <h4>Why Choose Us</h4>
             </div>
-            <div className="about-us-card">
-                <div><span className="icon"><GrUserWorker/></span></div>
-                <h4>Comfort & Convenience</h4>
-                <p>Schedule a pickup at your convenience. Ensure timely scrap removal from your home or office.</p>
+            <div className='why-choose-us-cards'>
+                <div className="about-us-card">
+                    <div><span className="icon"><GrUserWorker/></span></div>
+                    <h4>Comfort & Convenience</h4>
+                    <p>Schedule a pickup at your convenience. Ensure timely scrap removal from your home or office.</p>
+                </div>
+                <div className="about-us-card">
+                    <div><span className="icon"><GiReceiveMoney/></span></div>
+                    <h4>Instant Payment</h4>
+                    <p>Unlike other scrap dealers, we don't keep your money. Get paid instantly as we clear the scrap.</p>
+                </div>
+                <div className="about-us-card">
+                    <div><span className="icon"><VscWorkspaceTrusted/></span></div>
+                    <h4>Right Price for Right Scrap</h4>
+                    <p>Don't settle for low prices because you just want your property clean. Get the right price for the right scrap.</p>
+                </div>
             </div>
-            <div className="about-us-card">
-                <div><span className="icon"><GiReceiveMoney/></span></div>
-                <h4>Instant Payment</h4>
-                <p>Unlike other scrap dealers, we don't keep your money. Get paid instantly as we clear the scrap.</p>
-            </div>
-            <div className="about-us-card">
-                <div><span className="icon"><VscWorkspaceTrusted/></span></div>
-                <h4>Right Price for Right Scrap</h4>
-                <p>Don't settle for low prices because you just want your property clean. Get the right price for the right scrap.</p>
-            </div>
+            
         </div>
     </div>
   )
