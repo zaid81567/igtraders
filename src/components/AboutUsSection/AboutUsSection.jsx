@@ -16,7 +16,7 @@ function AboutUsSection() {
         <div className="about-us-card-container">
             <div>
                 <h2>We Have Many Years Of Experience to collect scrap items</h2>
-                <h4>Why Choose Us</h4>
+                <h4 className='why-choose-us-h4'>Why Choose Us</h4>
             </div>
             <div className='why-choose-us-cards'>
                 <div className="about-us-card">

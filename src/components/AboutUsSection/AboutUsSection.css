@@ -48,7 +48,7 @@
     align-items: center;
     gap: 10px;
 }
-.about-us-card-container div:first-child h4{
+.why-choose-us-h4{
     color: var(--accent-clr);
 }
 .about-us-card-container div:first-child h2{
@@ -89,6 +89,8 @@
     
     background-color: rgb(226, 254, 232);
     cursor: pointer;
+
+    
 }
 
 .about-us-card div:hover{
@@ -105,6 +107,7 @@
 .about-us-card h4{
     padding-top: 10px;
     text-align: center;
+    color: black;
 }
 
 .about-us-card p{

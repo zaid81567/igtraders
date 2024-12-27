@@ -28,7 +28,7 @@ function Footer() {
     <footer>
       <div className="brief-outro">
         <span><h2>Company Logo</h2></span>
-        <p>Unique Scrap Buyers company takes great pride in serving its customers as the best scrap buyers in Kolkata.</p>
+        <p>IG Traders Scrap Buyer company takes great pride in serving its customers as the best scrap buyers in Kolkata.</p>
         <ul>
           <li><FaFacebook/></li>
           <li><FaInstagram/></li>

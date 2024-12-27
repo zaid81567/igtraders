@@ -1,0 +1,99 @@
+.about-page-container{
+    padding-inline: 10px 10px;
+}
+
+
+.about-page-container .heading{
+    padding: 20px 0;
+}
+
+
+.about-page-container .heading h1{
+    text-align: center;
+}   
+
+.about-page-container .heading h2{
+    font-size: 16px;
+    text-align: center;
+    color: var(--accent-clr);
+}
+
+/* description */
+
+.description{
+
+}
+
+.description div:first-child{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.description div .img-container{
+    padding: 5px;
+    border-top: 5px darkgreen solid;
+    border-right: 5px rgba(0, 0, 0, 0) solid;
+    border-bottom: 5px rgba(0, 0, 0, 0) solid;
+    border-left: 5px darkgreen solid;
+}
+
+.description div img{
+    width: 100%;
+    transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.description div img:hover{
+    transform: scale(1.08);
+    filter: grayscale(1);
+}
+
+.description p{
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.description div:nth-child(2){
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0;
+}
+/* Keep all your existing CSS and just update the media query part */
+
+@media (min-width: 1024px){
+    .about-page-container .heading h1{
+        font-size: 40px;
+    }
+    .about-page-container .heading h2{
+        font-size: 20px;
+        text-align: center;
+        color: var(--accent-clr);
+    }
+
+    /* Style for both first and second divs */
+    .description div:first-child,
+    .description div:nth-child(2){
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    /* Image container styles for both divs */
+    .description .img-container{
+        flex: 1;
+        min-width: 0;
+    }
+
+    /* Text container styles for both divs */
+    .description div:first-child > :not(.img-container),
+    .description div:nth-child(2) > :not(.img-container) {
+        flex: 1;
+    }
+
+    /* Ensure images maintain aspect ratio */
+    .description img{
+        width: 100%;
+        height: auto;
+    }
+}
