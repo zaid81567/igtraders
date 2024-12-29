@@ -9,6 +9,7 @@ import ContactPage from './pages/ContactPage';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import ServicesPage from './pages/ServicesPage';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   const route = createBrowserRouter([
@@ -16,6 +17,7 @@ function App() {
         path: "/",
         element: (
           <>
+            <ScrollToTop/>
             <Header />
             <HomePage />
             <Footer />
@@ -26,6 +28,7 @@ function App() {
         path: "/about",
         element: (
           <>
+            <ScrollToTop/>
             <Header />
             <AboutPage />
             <Footer />
@@ -36,6 +39,7 @@ function App() {
         path: "/services",
         element: (
           <>
+            <ScrollToTop/>
             <Header />
             <ServicesPage />
             <Footer />
@@ -46,6 +50,8 @@ function App() {
         path: "/contact",
         element: (
           <>
+            
+            <ScrollToTop/>
             <Header />
             <ContactPage />
             <Footer />
