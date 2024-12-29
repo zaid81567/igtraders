@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <nav>
         <div>
-            <button className="pickup-cta-btn">Pickup Request</button>
+            <button className="pickup-cta-btn"><Link style={{textDecoration:"none", color:"white"}} to="/contact">Pickup Request</Link></button>
             <span className="hamburger-btn" onClick={handleMenuOpen}><GiHamburgerMenu/></span>
         </div>
         <div className={`nav-els ${isMenuOpen?'menu-open':''}`}>

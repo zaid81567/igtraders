@@ -8,6 +8,7 @@ import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
+import ServicesPage from './pages/ServicesPage';
 
 function App() {
   const route = createBrowserRouter([
@@ -27,6 +28,16 @@ function App() {
           <>
             <Header />
             <AboutPage />
+            <Footer />
+          </>
+        ),
+      },
+      {
+        path: "/services",
+        element: (
+          <>
+            <Header />
+            <ServicesPage />
             <Footer />
           </>
         ),
