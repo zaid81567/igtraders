@@ -2,12 +2,15 @@ import React, { useState } from 'react'
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link, NavLink } from 'react-router-dom';
 import './Navbar.css'
+import companyLogo from '../../assets/big_logo.png'
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const handleMenuOpen = () =>{
     setIsMenuOpen(!isMenuOpen);
   }
+
+  console.log(companyLogo);
   return (
     <nav>
         <div>

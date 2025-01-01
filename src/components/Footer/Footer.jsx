@@ -7,6 +7,7 @@ import { MdMarkEmailUnread } from "react-icons/md";
 import { FaLinkedin, FaPhone } from "react-icons/fa6";
 import { FaInstagram, FaFacebook, FaWhatsapp } from "react-icons/fa";
 import CopyrightBanner from './CopyrightBanner/CopyrightBanner';
+import companyLogo from '../../assets/big_logo.png'
 
 function Footer() {
     const services = [
@@ -21,9 +22,6 @@ function Footer() {
         "Plastic Recycling",
         "Secondhand Computer & Laptop Buyer"
     ];
-
-    // const quick_links = ["Home", "About us", "Scrap gallery", "Contact us"]
-    // const quick_links_path = ['/', '/about', '/gallery', '/contact']
 
     const quick_links = [
       {
@@ -48,13 +46,13 @@ function Footer() {
     <>
     <footer>
       <div className="brief-outro">
-        <span><h2>Company Logo</h2></span>
+        <img src={companyLogo} alt="" />
         <p>IG Traders Scrap Buyer company takes great pride in serving its customers as the best scrap buyers in Kolkata.</p>
         <ul>
-          <li><FaFacebook/></li>
-          <li><FaInstagram/></li>
-          <li><FaWhatsapp/></li>
-          <li><FaLinkedin/></li>
+          <li><a href="#"><FaFacebook/></a></li>
+          <li><a href=""><FaInstagram/></a></li>
+          <li><a aria-label='chat on whatsapp' href='https://wa.me/919830415155' target='_blank'><FaWhatsapp/></a></li>
+          <li><a href=""><FaLinkedin/></a></li>
         </ul>
       </div>
 
@@ -85,15 +83,15 @@ function Footer() {
         <div>
           <div>
             <span><IoLocation/></span>
-            <p>10/1/1, Collin lane, Kolkata-700016</p>
+            <a href="https://www.google.com/maps/place/I+G+TRADERS+scrap+buyer,+10%2F1%2F1,+Collin+Ln,+Esplanade,+Taltala,+Kolkata,+West+Bengal+700016/data=!4m2!3m1!1s0x3a02770022e3c28b:0x3f9df13b7e648b8?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESCjExLjE0Ni4yMTEYACCenQoqfiw5NDI0MjUzNSw5NDIyMzI5OSw5NDIxNjQxMyw5NDIxMjQ5Niw5NDIwNzM5NCw5NDIwNzUwNiw5NDIwODUwNiw5NDIxNzUyMyw5NDIxODY1Myw5NDIyOTgzOSw5NDIzOTEyNyw0NzA4NzExOCw0NzA4NDM5Myw5NDIxMzIwMEICSU4%3D"><p>10/1/1, Collin lane, Kolkata-700016</p></a>
           </div>
           <div>
             <span><MdMarkEmailUnread/></span>
-            <p>igtradersscrap@gmail.com</p>
+            <a href="mailto:igtradersscrap@gmail.com" aria-label='click to mail'><p>igtradersscrap@gmail.com</p></a>
           </div>
           <div>
             <span><FaPhone/></span>
-            <p>+91 9830415155</p>
+            <a href='tel:+919830415155' aria-label='click to call'><p>+91 9830415155</p></a>
           </div>
         </div>
       </div>    

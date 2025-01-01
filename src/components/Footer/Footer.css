@@ -65,6 +65,10 @@ footer .brief-outro{
     background-color: rgb(0, 126, 0);
 }
 
+.brief-outro a{
+    color: white;
+}
+
 
 /* Quick Links  */
 .quick-links a{
@@ -93,6 +97,11 @@ footer .brief-outro{
 
 .our-contact div div span{
     color: var(--accent-clr);
+}
+
+.our-contact a{
+    color: white;
+    text-decoration: none;
 }
 
 
