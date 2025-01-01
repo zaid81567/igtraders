@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import { NavLink } from 'react-router-dom';
 
 import { IoLocation } from "react-icons/io5";
 import { MdMarkEmailUnread } from "react-icons/md";
@@ -21,7 +22,27 @@ function Footer() {
         "Secondhand Computer & Laptop Buyer"
     ];
 
-    const quick_links = ["Home", "About us", "Scrap gallery", "Contact us"]
+    // const quick_links = ["Home", "About us", "Scrap gallery", "Contact us"]
+    // const quick_links_path = ['/', '/about', '/gallery', '/contact']
+
+    const quick_links = [
+      {
+        name: "Home",
+        path: "/",
+      },
+      {
+        name: "About us",
+        path: "/about",
+      },
+      {
+        name: "Scrap gallery",
+        path: "/gallery",
+      },
+      {
+        name: "Contact us",
+        path: "/contact",
+      },
+    ]
 
   return (
     <>
@@ -53,7 +74,7 @@ function Footer() {
         <ul>
         {quick_links.map((item, index)=>{
           return (
-            <li>{item}</li>
+            <li className='quick-link'><NavLink className={({ isActive }) => (isActive ? "active-link" : "quick-link")} style={{textDecoration:"none"}} to={item.path} key={index}>{item.name}</NavLink></li>
           )
         })}
         </ul>

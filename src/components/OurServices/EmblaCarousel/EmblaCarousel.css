@@ -1,10 +1,16 @@
+.carousel-container-main{
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
 .carousel-container{
-  margin-top: 30px;
+  width: 100%;
 }
 
 .embla {
   max-width: 48rem;
-  margin: auto;
+  margin: 20px 0;
   --slide-height: 19rem;
   --slide-spacing: 0rem;
   --slide-size: 80%;
@@ -70,4 +76,19 @@
 
 .img3{
   background-image: url('../../../assets/carousel/battery_scrap.png');
+}
+
+.img4{
+  background-image: url('../../../assets/carousel/laptop_scrap.png');
+}
+
+
+@media (min-width:1024px){
+  .carousel-container{
+    /* margin-top: 30px; */
+    width: 800px;
+  }
+  .embla__slide {
+    flex: 0 0 40%; 
+  }
 }

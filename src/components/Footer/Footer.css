@@ -65,7 +65,18 @@ footer .brief-outro{
     background-color: rgb(0, 126, 0);
 }
 
-/* services  */
+
+/* Quick Links  */
+.quick-links a{
+    color:white;
+}
+.quick-links a:hover{
+    color: var(--accent-clr);
+}
+
+.quick-links .active-link{
+    color: var(--accent-clr);
+}
 
 
 /* our contact  */

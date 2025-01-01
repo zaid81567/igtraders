@@ -54,9 +54,7 @@ nav ul li:active{
   color: white;
 }
 
-.active-link{
-  color: var(--accent-clr);
-}
+/* active link css in index.css */
 
 /* Pick Up Request Btn */
 nav div:first-child{

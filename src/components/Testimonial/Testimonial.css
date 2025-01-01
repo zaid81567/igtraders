@@ -1,5 +1,6 @@
 .testimonial-container{
-    margin-top: 50px;
+    padding-top: 50px;
+    /* height: 100vh; */
 }
 
 .testimonial-container .heading{
@@ -8,7 +9,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 5px;
 }
 
 .testimonial-container div:first-child h4{
@@ -28,7 +29,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
     padding: 0px 10px;
 }
 
