@@ -6,6 +6,7 @@ function ContactPage() {
   return (
     <div className="contact-us-page">
       <div className="contact-us-top">
+      
         <div className="contact-us-container">
           <h1>Contact Us</h1>
             <ContactForm/>

@@ -1,12 +1,11 @@
 import React, { useRef, useState } from 'react';
-import emailjs from '@emailjs/browser';
 import './ContactForm.css';
+import emailjs from '@emailjs/browser';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 export const ContactForm = () => {
   const form = useRef();
-  // const [hasMsgSent, setHasMsgSent] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
