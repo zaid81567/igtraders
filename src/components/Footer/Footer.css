@@ -1,3 +1,21 @@
+footer{
+    position: relative;
+}
+.scroll-to-top{
+    position: absolute;
+    top: -18px;
+    right: 18px;
+    /* left: 50%;
+    transform: translateX(-50%); */
+
+    background-color: black;
+    padding: 5px;
+    line-height: .2;
+    border: 2px rgb(255, 255, 255) solid;
+    cursor: pointer;
+    font-size: 25px;
+}
+
 /* preset  */
 footer p, ul li{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

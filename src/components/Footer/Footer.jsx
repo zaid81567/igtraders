@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 import { IoLocation } from "react-icons/io5";
 import { MdMarkEmailUnread } from "react-icons/md";
 import { FaLinkedin, FaPhone } from "react-icons/fa6";
-import { FaInstagram, FaFacebook, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaWhatsapp, FaAngleUp } from "react-icons/fa";
 import CopyrightBanner from './CopyrightBanner/CopyrightBanner';
 import companyLogo from '../../assets/big_logo.png'
 
@@ -42,9 +42,17 @@ function Footer() {
       },
     ]
 
+    const HandleScrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    }
+
   return (
     <>
     <footer>
+    <div className="scroll-to-top" onClick={HandleScrollToTop}><FaAngleUp/></div>
       <div className="brief-outro">
         <img src={companyLogo} alt="" />
         <p>IG Traders Scrap Buyer company takes great pride in serving its customers as the best scrap buyers in Kolkata.</p>
