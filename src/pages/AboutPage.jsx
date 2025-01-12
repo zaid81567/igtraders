@@ -2,9 +2,18 @@ import React from 'react'
 import aboutpg1 from '../assets/about-page-1.jpg'
 import aboutpg2 from '../assets/about-page-2.jpg'
 import './css/AboutPage.css'
+import SEO from '../components/SEO'
 
 function AboutPage() {
   return (
+    <>
+    <SEO
+      title="About Us - IG Traders"
+      description="Learn more about IG Traders, the leading scrap buyer in Kolkata. Our team, mission, and values."
+      name="IG Traders"
+      type="website"
+    />
+
     <div className='about-page-container'>
 
       <div className="heading">
@@ -27,6 +36,7 @@ function AboutPage() {
       </div>
 
     </div>
+    </>
   )
 }
 

@@ -1,9 +1,18 @@
 import React from 'react'
 import './css/ContactPage.css'
 import ContactForm from '../components/ContactForm/ContactForm'
+import SEO from '../components/SEO'
 
 function ContactPage() {
   return (
+    <>
+    <SEO
+      title="Contact Us - IG Traders"
+      description="Get in touch with IG Traders for scrap buying inquiries. Contact details, office location, and more."
+      name="IG Traders"
+      type="website"
+    />
+
     <div className="contact-us-page">
       <div className="contact-us-top">
       
@@ -34,6 +43,8 @@ function ContactPage() {
         </iframe>
       </div>
     </div>
+    </>
+
   )
 }
 

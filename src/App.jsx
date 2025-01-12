@@ -10,6 +10,7 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import ServicesPage from './pages/ServicesPage';
 import ScrollToTop from './components/ScrollToTop';
+import { HelmetProvider } from 'react-helmet-async';
 
 function App() {
   const route = createBrowserRouter([
@@ -64,7 +65,10 @@ function App() {
       },
     ]);
 
+  const helmetContext = {};
+
   return (
+    <HelmetProvider context={helmetContext}>
     <div>
       <RouterProvider router={route}/>
       <ToastContainer
@@ -78,9 +82,9 @@ function App() {
       draggable
       pauseOnHover
       theme="light"
-      // transition={ounce}
       />
     </div>
+    </HelmetProvider>
   );
 }
 

@@ -10,7 +10,6 @@ function Navbar() {
     setIsMenuOpen(!isMenuOpen);
   }
 
-  console.log(companyLogo);
   return (
     <nav>
         <div>
