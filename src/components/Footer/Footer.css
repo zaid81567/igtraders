@@ -127,11 +127,9 @@ footer .brief-outro{
 @media (min-width: 1024px) {
     footer {
         flex-direction: row;
-        /* remove flex: 1 from here */
     }
     
-    /* Add these new rules */
-    footer > * {  /* This targets all direct children of footer */
+    footer > * {  
         flex: 1;
         min-width: 0;  /* This prevents flex items from overflowing */
     }
