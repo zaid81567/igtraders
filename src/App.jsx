@@ -10,7 +10,9 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import ServicesPage from './pages/ServicesPage';
 import ScrollToTop from './components/ScrollToTop';
+
 import { HelmetProvider } from 'react-helmet-async';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   const route = createBrowserRouter([
@@ -84,6 +86,7 @@ function App() {
       theme="light"
       />
     </div>
+    <Analytics />
     </HelmetProvider>
   );
 }
