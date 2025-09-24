@@ -11,7 +11,21 @@ function ServicesPage() {
       type="service" 
     />
 
-    <div>ServicesPage</div>
+    <div>
+      <div className="heading">
+        <h1>Services we Offer.</h1>
+      </div>
+
+      <div className="all-service-list-container">
+        <div className="service-box">
+          <div className="service-name">E Waste Recycling</div>
+          <div className="service-img">
+          
+          </div>
+        </div>
+        
+      </div>
+    </div>
     </>
   )
 }
