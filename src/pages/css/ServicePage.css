@@ -17,11 +17,32 @@
 }
 
 .service-box{
-  display:flex;
-  flex-direction: column;
+  height: inherit;
+  color: white;
+  
+  border-radius: 5px;
+  overflow: hidden;
+
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 }
 
 .service-box .service-name{
-  padding: 10px 0;
-  background:
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  text-align: center;
+  background-color: white;
+  color: black;
+
+  font-weight: bold;
+}
+
+.service-box img{
+  height: 80%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
