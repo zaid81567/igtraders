@@ -7,6 +7,10 @@ import { MdEmail, MdPhone} from "react-icons/md";
 import { FaInstagram, FaFacebook, FaWhatsapp } from "react-icons/fa";
 import companyLogo from '../../assets/big_logo.png'
 function Header() {
+
+    // Create an array with 50 empty elements
+  const panIndiaItems = Array.from({ length: 50 });
+  
   return (
     <header>
         <div className="contact-info-top">
@@ -35,7 +39,11 @@ function Header() {
 
         <marquee class="marq" bgcolor="Green" 
                  direction="left" loop="">
-          PAN INDIA
+          {panIndiaItems.map(() => (
+          <p className="marquee-item">
+            PAN INDIA DEALING | 
+          </p>
+        ))}
           </marquee>
         <Navbar/>
     </header>
