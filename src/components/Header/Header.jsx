@@ -40,9 +40,9 @@ function Header() {
         <marquee class="marq" bgcolor="Green" 
                  direction="left" loop="">
           {panIndiaItems.map(() => (
-          <p className="marquee-item">
+          <span className="marquee-item">
             PAN INDIA DEALING | 
-          </p>
+          </span>
         ))}
           </marquee>
         <Navbar/>
