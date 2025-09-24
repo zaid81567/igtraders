@@ -30,31 +30,31 @@ function ServicesPage() {
         </div>          
         <div className="service-box">
             <div className="service-img"> <img src={eWasteRecyclingImg} /> </div>
-            <div className="service-name">E Waste Recycling</div>
+            <div className="service-name">Plastic Recycling</div>
         </div>          
         <div className="service-box">
             <div className="service-img"> <img src={eWasteRecyclingImg} /> </div>
-            <div className="service-name">E Waste Recycling</div>
+            <div className="service-name">Office Dismantle</div>
         </div>          
         <div className="service-box">
             <div className="service-img"> <img src={eWasteRecyclingImg} /> </div>
-            <div className="service-name">E Waste Recycling</div>
+            <div className="service-name">Second Hand Laptop/Computer Buyer</div>
         </div>          
         <div className="service-box">
             <div className="service-img"> <img src={eWasteRecyclingImg} /> </div>
-            <div className="service-name">E Waste Recycling</div>
+            <div className="service-name">Second Hand AC Buyer</div>
         </div>          
         <div className="service-box">
             <div className="service-img"> <img src={eWasteRecyclingImg} /> </div>
-            <div className="service-name">E Waste Recycling</div>
+            <div className="service-name">UPS/Battery Buyer</div>
         </div>          
         <div className="service-box">
             <div className="service-img"> <img src={eWasteRecyclingImg} /> </div>
-            <div className="service-name">E Waste Recycling</div>
+            <div className="service-name">Office Furniture Buyer</div>
         </div>          
         <div className="service-box">
             <div className="service-img"> <img src={eWasteRecyclingImg} /> </div>
-            <div className="service-name">E Waste Recycling</div>
+            <div className="service-name">Old DG Generator Buyer</div>
         </div>          
      </div>        
     </>
