@@ -1,1 +1,27 @@
+.service-page-container{
+  padding-inline: 10px 10px;
+}
 
+.service-page-container .heading{
+    padding: 20px 0;
+}
+
+.service-page-container .heading h1{
+    text-align: center;
+}  
+
+/* service-containers */
+
+.all-service-list-container{
+  display: flex;
+}
+
+.service-box{
+  display:flex;
+  flex-direction: column;
+}
+
+.service-box .service-name{
+  padding: 10px 0;
+  background:
+}
