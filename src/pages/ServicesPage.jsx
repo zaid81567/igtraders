@@ -1,5 +1,6 @@
 import React from 'react'
 import SEO from '../components/SEO'
+import './css/ServicePage.css'
 
 //services images
 import eWasteRecyclingImg from '../assets/eWasteRecyclingServiceImg.jpeg'
@@ -20,12 +21,6 @@ function ServicesPage() {
       </div>
 
       <div className="all-service-list-container">
-        <div className="service-box">
-          <div className="service-name">E Waste Recycling</div>
-          <div className="service-img">
-            <img src={eWasteRecyclingImg} />
-          </div>
-
           <div className="service-box">
               <div className="service-img"> <img src={eWasteRecyclingImg} /> /div>
               <div className="service-name">E Waste Recycling</div>
