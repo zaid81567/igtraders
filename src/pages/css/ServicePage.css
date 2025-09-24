@@ -1,38 +1,34 @@
-.all-service-list-container {
-  display: grid;
-  /* Creates three columns of equal width */
-  grid-template-columns: repeat(3, 1fr);
-  /* Adds a gap between the cards */
-  gap: 20px;
-  /* Optional: Add some padding around the entire grid */
-  padding: 20px;
-
-  margin-bottom: 100px;
-}
-
-
-
-.service-page-container .heading{
-    padding: 20px 0;
-}
-
-.service-page-container .heading h1{
-    text-align: center;
-}  
-
 /* service-containers */
+.all-service-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Provides consistent spacing between cards */
+  padding: 20px; /* Adds padding around the entire card container */
+  justify-content: center; /* Centers the cards when there are fewer than three */
+}
 
 .service-box {
-  height: 300px;
+  width: 300px; /* Maintain a consistent card width */
+  height: 300px; /* Fixed card height */
   color: white;
-  padding: 10px;
   border-radius: 5px;
-
+  overflow: hidden; /* Crucial for preventing content from spilling out */
   box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 }
 
+.service-box .service-img {
+  height: 80%; /* Allocate 80% of the container height to the image wrapper */
+  overflow: hidden; /* Hide any part of the image that spills out */
+}
+
+.service-box img {
+  width: 100%; /* Make the image fill the full width of its container */
+  height: 100%; /* Make the image fill the full height of its container */
+  object-fit: cover; /* **Scales the image to fill the container without stretching it** */
+}
+
 .service-box .service-name {
-  height: 20%;
+  height: 20%; /* Allocate 20% of the container height to the name */
   width: 100%;
   display: flex;
   justify-content: center;
@@ -41,13 +37,16 @@
   text-align: center;
   background-color: white;
   color: black;
-
   font-weight: bold;
+  padding: 5px; /* Add some padding to ensure text doesn't touch the edges */
+  box-sizing: border-box; /* Include padding in height calculation */
 }
 
-.service-box img {
-  height: 80%;
-  width: 100%;
-  object-fit: cover; /* This is the key fix */
+/* Optional: Make the cards responsive for smaller screens */
+@media (max-width: 768px) {
+  .all-service-list-container {
+    flex-direction: column; /* Stack cards vertically on smaller screens */
+    align-items: center; /* Center the stacked cards */
+  }
 }
 
