@@ -14,7 +14,7 @@ function ServicesPage() {
       type="service" 
     />
 
-    <div>
+    <div className="service-page-container>
       <div className="heading">
         <h1>Services we Offer.</h1>
       </div>
