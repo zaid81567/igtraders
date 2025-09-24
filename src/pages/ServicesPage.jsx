@@ -4,6 +4,14 @@ import './css/ServicePage.css'
 
 //services images
 import eWasteRecyclingImg from '../assets/eWasteRecyclingServiceImg.jpeg'
+import plasticRecyclingImg from '../assets/plasticRecyclingImg.jpeg'
+import officeDismantleImg from '../assets/officeDismantleImg.jpeg'
+import laptopImg from '../assets/laptopImg.jpeg'
+import ACImg from '../assets/ACImg.jpeg'
+import batteryImg from '../assets/betteryImg.jpeg'
+import officeFurnitureImg from '../assets/officeFurnitureImg.jpeg'
+import DGGeneratorImg from '../assets/DGGeneratorImg.jpeg'
+
 
 function ServicesPage() {
   return (
