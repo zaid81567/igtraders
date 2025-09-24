@@ -11,16 +11,14 @@ import companyLogo from '../../assets/big_logo.png'
 
 function Footer() {
     const services = [
-        "E waste Management",
-        "Second Hand Laptop Buyer",
-        "Second Hand Computer Buyer",
+        "E waste Recycling",
+        "Plastic Recycling",
+        "Office Desmantle",
+        "Second Hand Laptop/Computer Buyer",
         "Second Hand Ac Buyer",
         "Second Hand Ups Batteries Buyer",
         "Second Hand Office Furniture Buyer",
-        "Second hand Battery Buyer",
         "Old DG Generator Buyer in Kolkata",
-        "Plastic Recycling",
-        "Secondhand Computer & Laptop Buyer"
     ];
 
     const quick_links = [
@@ -91,7 +89,7 @@ function Footer() {
         <div>
           <div>
             <span><IoLocation/></span>
-            <a href="https://www.google.com/maps/place/I+G+TRADERS+scrap+buyer,+10%2F1%2F1,+Collin+Ln,+Esplanade,+Taltala,+Kolkata,+West+Bengal+700016/data=!4m2!3m1!1s0x3a02770022e3c28b:0x3f9df13b7e648b8?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESCjExLjE0Ni4yMTEYACCenQoqfiw5NDI0MjUzNSw5NDIyMzI5OSw5NDIxNjQxMyw5NDIxMjQ5Niw5NDIwNzM5NCw5NDIwNzUwNiw5NDIwODUwNiw5NDIxNzUyMyw5NDIxODY1Myw5NDIyOTgzOSw5NDIzOTEyNyw0NzA4NzExOCw0NzA4NDM5Myw5NDIxMzIwMEICSU4%3D"><p>10/1/1, Collin lane, Kolkata-700016</p></a>
+            <a href="https://www.google.com/maps/place/IG+traders/@22.5534015,88.3553001,16z/data=!4m10!1m2!2m1!1sigtraders!3m6!1s0x3a027707740123e9:0x66abe5bdcdcee573!8m2!3d22.5534015!4d88.3553001!15sCglpZ3RyYWRlcnOSARJzY3JhcF9tZXRhbF9kZWFsZXKqATIQATIfEAEiG5PKHwPXPwSVHoSBhdS6jw2JXvwq2Li0bZpVojINEAIiCWlndHJhZGVyc-ABAA!16s%2Fg%2F11yg09bjty?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D"><p>2 No., Cockburn Lane, Esplanade, Taltala, Kolkata, West Bengal - 700014</p></a>
           </div>
           <div>
             <span><MdMarkEmailUnread/></span>
