@@ -33,35 +33,35 @@ function ServicesPage() {
 
     <div className="all-service-list-container">
         <div className="service-box">
-            <div className="service-img"> <img src={eWasteRecyclingImg} /> </div>
+            <div className="service-img"> <img src={eWasteRecyclingImg} alt="E Waste Recycling" /> </div>
             <div className="service-name">E Waste Recycling</div>
         </div>          
         <div className="service-box">
-            <div className="service-img"> <img src={eWasteRecyclingImg} /> </div>
+            <div className="service-img"> <img src={plasticRecyclingImg} alt="Plastic Recycling" /> </div>
             <div className="service-name">Plastic Recycling</div>
         </div>          
         <div className="service-box">
-            <div className="service-img"> <img src={eWasteRecyclingImg} /> </div>
+            <div className="service-img"> <img src={officeDismantleImg} alt="Office Dismantle" /> </div>
             <div className="service-name">Office Dismantle</div>
         </div>          
         <div className="service-box">
-            <div className="service-img"> <img src={eWasteRecyclingImg} /> </div>
+            <div className="service-img"> <img src={laptopImg} alt="Second Hand Laptop/Computer Buyer" /> </div>
             <div className="service-name">Second Hand Laptop/Computer Buyer</div>
         </div>          
         <div className="service-box">
-            <div className="service-img"> <img src={eWasteRecyclingImg} /> </div>
+            <div className="service-img"> <img src={ACImg} alt="Second Hand AC Buyer" /> </div>
             <div className="service-name">Second Hand AC Buyer</div>
         </div>          
         <div className="service-box">
-            <div className="service-img"> <img src={eWasteRecyclingImg} /> </div>
+            <div className="service-img"> <img src={batteryImg} alt="UPS/Battery Buyer" /> </div>
             <div className="service-name">UPS/Battery Buyer</div>
         </div>          
         <div className="service-box">
-            <div className="service-img"> <img src={eWasteRecyclingImg} /> </div>
+            <div className="service-img"> <img src={officeFurnitureImg} alt="Office Furniture Buyer" /> </div>
             <div className="service-name">Office Furniture Buyer</div>
         </div>          
         <div className="service-box">
-            <div className="service-img"> <img src={eWasteRecyclingImg} /> </div>
+            <div className="service-img"> <img src={DGGeneratorImg} alt="Old DG Generator Buyer" /> </div>
             <div className="service-name">Old DG Generator Buyer</div>
         </div>          
      </div>        
