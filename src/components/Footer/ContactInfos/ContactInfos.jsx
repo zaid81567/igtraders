@@ -11,7 +11,7 @@ function ContactInfos() {
         <div className="contact-info">
             <span><IoLocation/></span>
             <h4>Address</h4>
-            <p>10/1/1, Collin lane, Kolkata-700016</p>
+            <p>2 No., Cockburn Lane, Esplanade, Taltala, Kolkata, West Bengal - 700014</p>
         </div>
         <div className="contact-info">
             <span><MdMarkEmailUnread/></span>
