@@ -1,6 +1,9 @@
 import React from 'react'
 import SEO from '../components/SEO'
 
+//services images
+import eWasteRecyclingImg from '../assets/eWasteRecyclingServiceImg.jpeg'
+
 function ServicesPage() {
   return (
     <>
@@ -20,7 +23,7 @@ function ServicesPage() {
         <div className="service-box">
           <div className="service-name">E Waste Recycling</div>
           <div className="service-img">
-          
+            <img src={eWasteRecyclingImg} />
           </div>
         </div>
         
