@@ -83,7 +83,7 @@ header a{
 }
 
 /* Marquee */
-marquee p{
+marquee span{
     font-weight: bold;
     color: white;
     padding: 5px 2px;
