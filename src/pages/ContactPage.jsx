@@ -29,7 +29,7 @@ function ContactPage() {
             <div className="phone-number-container">
               <p>Contact: <span className="phone-number-span">+91 9830415155</span></p>
             </div>
-            <p className="address-p">Address: <span className="address-span">10/1/1, Collin lane, Kolkata-700016</span></p>
+            <p className="address-p">Address: <span className="address-span">2 No., Cockburn Lane, Esplanade, Taltala, Kolkata, West Bengal - 700014</span></p>
           </div>
         </div>
       </div>
