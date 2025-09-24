@@ -32,6 +32,11 @@ function Header() {
         <div className="company-logo-container">
           <img src={companyLogo} alt=""/>
         </div>
+
+        <marquee class="marq" bgcolor="Green" 
+                 direction="left" loop="">
+          PAN INDIA
+          </marquee>
         <Navbar/>
     </header>
   )
