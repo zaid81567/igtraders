@@ -10,7 +10,7 @@ import laptopImg from '../assets/laptopImg.jpeg'
 import ACImg from '../assets/ACImg.jpeg'
 import batteryImg from '../assets/betteryImg.jpeg'
 import officeFurnitureImg from '../assets/officeFurnitureImg.jpeg'
-import DGGeneratorImg from '../assets/DGGeneratorImg.jpeg'
+import DGGeneratorImg from '../assets/DGGeneratorImg.jpg'
 
 
 function ServicesPage() {
