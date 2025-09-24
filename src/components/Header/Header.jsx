@@ -41,7 +41,7 @@ function Header() {
                  direction="left" loop="">
           {panIndiaItems.map(() => (
           <span className="marquee-item">
-            PAN INDIA DEALING | 
+            PAN INDIA DEALING | &nbsp;
           </span>
         ))}
           </marquee>
