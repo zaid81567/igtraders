@@ -12,10 +12,6 @@
 
 /* service-containers */
 
-.all-service-list-container{
-  display: flex;
-}
-
 .service-box{
   height: inherit;
   color: white;
