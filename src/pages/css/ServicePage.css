@@ -1,34 +1,36 @@
 /* service-containers */
 .all-service-list-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /* Allows cards to wrap to the next line */
   gap: 20px; /* Provides consistent spacing between cards */
   padding: 20px; /* Adds padding around the entire card container */
-  justify-content: center; /* Centers the cards when there are fewer than three */
+  justify-content: center; /* Centers the cards when there are fewer than four */
 }
 
 .service-box {
-  width: 300px; /* Maintain a consistent card width */
-  height: 300px; /* Fixed card height */
+  /* Set a flexible basis and prevent growing */
+  flex: 0 0 23%; /* Approx. 23% to leave room for gaps */
+  max-width: 300px; /* Limits the maximum size of a card on a big screen */
+  height: 300px;
   color: white;
   border-radius: 5px;
-  overflow: hidden; /* Crucial for preventing content from spilling out */
+  overflow: hidden;
   box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 }
 
 .service-box .service-img {
-  height: 80%; /* Allocate 80% of the container height to the image wrapper */
-  overflow: hidden; /* Hide any part of the image that spills out */
+  height: 80%;
+  overflow: hidden;
 }
 
 .service-box img {
-  width: 100%; /* Make the image fill the full width of its container */
-  height: 100%; /* Make the image fill the full height of its container */
-  object-fit: cover; /* **Scales the image to fill the container without stretching it** */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .service-box .service-name {
-  height: 20%; /* Allocate 20% of the container height to the name */
+  height: 20%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -38,15 +40,19 @@
   background-color: white;
   color: black;
   font-weight: bold;
-  padding: 5px; /* Add some padding to ensure text doesn't touch the edges */
-  box-sizing: border-box; /* Include padding in height calculation */
+  padding: 5px;
+  box-sizing: border-box;
 }
 
-/* Optional: Make the cards responsive for smaller screens */
-@media (max-width: 768px) {
-  .all-service-list-container {
-    flex-direction: column; /* Stack cards vertically on smaller screens */
-    align-items: center; /* Center the stacked cards */
+/* Adjust layout for smaller screens */
+@media (max-width: 1200px) {
+  .service-box {
+    flex-basis: 45%; /* Show two cards per row on smaller screens */
   }
 }
 
+@media (max-width: 768px) {
+  .service-box {
+    flex-basis: 100%; /* Show one card per row on mobile */
+  }
+}
