@@ -23,7 +23,7 @@ function ServicesPage() {
 
       <div className="all-service-list-container">
           <div className="service-box">
-              <div className="service-img"> <img src={eWasteRecyclingImg} /> /div>
+              <div className="service-img"> <img src={eWasteRecyclingImg} /> </div>
               <div className="service-name">E Waste Recycling</div>
           </div>          
       </div>
