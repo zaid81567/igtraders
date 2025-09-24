@@ -18,7 +18,7 @@ function Footer() {
         "Second Hand Ac Buyer",
         "Second Hand Ups Batteries Buyer",
         "Second Hand Office Furniture Buyer",
-        "Old DG Generator Buyer in Kolkata",
+        "Old DG Generator Buyer",
     ];
 
     const quick_links = [
